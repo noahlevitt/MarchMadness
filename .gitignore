@@ -1,0 +1,25 @@
+# This .gitignore contains all files we want to avoid adding to GitLab
+# To untrack a file that is already checked in, git rm --cached FILENAME
+
+# mac and windows hidden system files
+.DS_Store
+Thumbs.db
+
+# all zip files
+*.zip
+
+# all compiled files
+*.o
+
+# all runtime logs and temp files
+*.log
+*.tmp
+
+# any editor specific files
+.idea/
+.vscode/
+
+# databses
+*.db
+
+# add any additionally discovered .gitignore files here

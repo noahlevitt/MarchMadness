@@ -1,0 +1,36 @@
+/* MyBets.css */
+
+.mybets-container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  .mybets-container .table {
+    background-color: #fff;
+  }
+  
+  .mybets-container .table th {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .mybets-container .alert-info {
+    margin-top: 1rem;
+  }
+  
+  .mybets-container .spinner-border {
+    display: block;
+    margin: 2rem auto;
+  }
+  
+  .mybets-container {
+    padding-bottom: 2rem;
+  }
+
+/* De‑emphasize the Bet ID column */
+.mybets-table th:first-child,
+.mybets-table td:first-child {
+  font-size: 0.8rem;       /* smaller text */
+  color: #6c757d;          /* Bootstrap “secondary” gray */
+}

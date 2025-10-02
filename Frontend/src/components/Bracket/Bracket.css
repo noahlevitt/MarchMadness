@@ -1,0 +1,98 @@
+.bracket-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bracket-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .team-box {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 50%;
+  }
+  
+  .team-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+/* border-radius: 50%; */
+  .logo {
+    width: 15%;
+    height: 15%;
+    padding-left: 0.5rem;
+    object-fit: contain;
+    text-align: left;
+  }
+  
+  .seed {
+    text-align: left;
+    font-size: 1.25vh;
+    width: 10%;
+    padding-left: 0.25rem;
+  }
+  
+  .name {
+    text-align: left;
+    flex: 1;
+    font-weight: bold;
+    font-size: 1.5vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .score {
+    text-align: right;
+    padding-right: 0.5rem;
+    font-weight: bold;
+    font-size: 1.5vh;
+  }
+
+  .logo-reverse {
+    width: 15%;
+    height: 15%;
+    padding-right: 0.5rem;
+    object-fit: contain;
+    text-align: right;
+    order: 4;
+  }
+
+  .seed-reverse {
+    text-align: right;
+    font-size: 1.25vh;
+    width: 10%;
+    padding-right: 0.25rem;
+    order: 3;
+  }
+  
+  .name-reverse {
+    text-align: right;
+    flex: 1;
+    font-weight: bold;
+    font-size: 1.5vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    order: 2;
+  }
+  
+  .score-reverse {
+    text-align: left;
+    padding-left: 0.5rem;
+    font-weight: bold;
+    order: 1;
+    font-size: 1.5vh;
+  }

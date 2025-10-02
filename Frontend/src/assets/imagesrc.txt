@@ -1,0 +1,15 @@
+This file contains image/icon sources for future citation purposes
+As the images and icons are not FINAL, we can compress and cite later
+
+TODO: We need to compress icon images where clarity does not matter for better performance
+
+Home Icon: https://www.flaticon.com/free-icon/home_1946488?term=home&page=1&position=2&origin=tag&related_id=1946488
+Bet Icon: https://www.flaticon.com/free-icon/casino-chip_2228731?term=bet&page=1&position=12&origin=search&related_id=2228731
+Search Icon: https://www.flaticon.com/free-icon/search_149852?term=search&page=1&position=2&origin=tag&related_id=149852 
+Profile Icon: https://www.flaticon.com/free-icon/user_149071?term=profile&page=1&position=9&origin=tag&related_id=149071 
+Final Four Icon: https://i.turner.ncaa.com/sites/default/files/cssu/mml/2025/bracket/finalfourlogo.svg
+Placeholder Team Icon: https://www.flaticon.com/free-icon/basketball_18846785?term=basketball+logo&page=1&position=24&origin=search&related_id=18846785
+Dollar Sign Icon: https://www.flaticon.com/free-icon/dollar-sign_7500362?term=dollar&page=1&position=23&origin=tag&related_id=7500362
+
+Copied Code 
+https://mherman.org/blog/dockerizing-a-react-app/

@@ -1,0 +1,119 @@
+nav {
+    /* Navbar Color */
+    background-color: black;
+    /* Padding helps to increase/decrease size too */
+    padding: 0 1vw;
+    /* Contents placed in row (horizontally) */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Navbar is unscrollable */
+    position: fixed;
+    /* Position is top left */
+    top: 0;
+    left: 0;
+    /* Full Width */
+    width: 100%;
+    box-sizing: border-box;
+    /* Dont hardcode height, choose a reasonable size */
+    height: 8vh;
+    /* Appear above all other elements */
+    z-index: 1000;
+    /* Gap between elements */
+    gap: 10vw;
+}
+
+/* Navigation container */
+.left-section {
+    display: flex;
+    gap: 2vw;
+    flex: 1;
+}
+
+/* Flexbox to align icon and text */
+.nav-item {
+    display: flex;
+    gap: 0.5vw;
+    cursor: pointer;
+    color: white;
+    font-size: 1.25vw;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    opacity: 0.8;
+}
+
+/* Align text in the center properly */
+.nav-item p {
+    padding-top: 1vh;
+}
+
+/* Scale icons with viewport */
+.nav-item img {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+/* Search bar */
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    flex: 2;
+}
+
+.search-container :hover{
+    opacity: 0.8;
+}
+
+#search-icon {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+#search-bar {
+    padding: 0.5vw;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1vw;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    padding-right: 2vw;
+}
+
+.balance-item{
+    display: flex;
+    gap: 0.5vw;
+    cursor: pointer;
+    color: white;
+    font-size: 1.25vw;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.balance-item p {
+    padding-top: 1vh;
+}
+
+/* Scale icons with viewport */
+.balance-item img {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+/*  To find hexcode of corresponding colors, visit: https://htmlcolorcodes.com/colors/
+    Current hexcode used: Orange = #FFAC1C / Blue = #09BDF2
+    To convert hexcode to filter, visit: https://codepen.io/sosuke/pen/Pjoqqp
+*/
+#home-icon, #bet-icon, #search-icon, #placebet-icon, #balance-icon {
+    filter: invert(61%) sepia(84%) saturate(436%) hue-rotate(355deg) brightness(99%) contrast(104%);
+    /* filter: invert(69%) sepia(37%) saturate(5288%) hue-rotate(153deg) brightness(97%) contrast(96%); */
+}
