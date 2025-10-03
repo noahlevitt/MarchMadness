@@ -13,7 +13,7 @@ const MyBets = () => {
   // helper to load bets + keep balance in sync
   const fetchBets = () => {
     setLoading(true);
-    fetch(`http://localhost:5001/mybets?email=${encodeURIComponent(userEmail)}`)
+    fetch(`/api/mybets?email=${encodeURIComponent(userEmail)}`)
       .then(res => {
         if (!res.ok) throw new Error("Failed to fetch bets");
         return res.json();
