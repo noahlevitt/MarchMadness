@@ -2,9 +2,13 @@
 
 This document serves as a living reference for the March Madness Betting Platform. It will be updated regularly to reflect changes in project architecture, specifications, and development decisions.
 
-## TeamName
+## One-Click Demo (no setup)
 
-T_23
+Click to launch a GitHub Codespace that builds and runs the full stack:
+
+[![Open in GitHub Codespaces](https://img.shields.io/badge/Open%20in-Codespaces-181717?logo=github)](https://github.com/codespaces/new?hide_repo_select=true&ref=master&repo=YOUR_REPO_ID)
+
+After the Codespace starts, open the **Ports** panel and click the forwarded web port to view the app.
 
 ### Project Abstract
 
